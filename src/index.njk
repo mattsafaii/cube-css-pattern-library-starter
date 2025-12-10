@@ -1,0 +1,74 @@
+---
+title: 'Bloom'
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+	<div class="bg-dark-glare">
+	  {{ design.patterns.renderPattern('site-head', {}) | safe }}
+	  <div class="wrapper">
+	    <div class="region flow flow-space-xl">
+	      {{ design.patterns.renderPattern('masthead', {}) | safe }}
+	      {{ design.patterns.renderPattern('hero', {}) | safe }}
+	    </div>
+	  </div>
+	</div>
+
+	{{ design.patterns.renderPattern('inspo', {}) | safe }}
+
+
+	<div class="region region-space-2xl-4xl bg-dark-glare indent indent-color-primary" id="courses" tabindex="-1">
+  <div class="wrapper flow flow-space-2xl-4xl">
+    <div class="repel items-end">
+      {# A one-off adjustment so setting the max width with a utility #}
+      <p class="max-w-[25ch]">Our courses teach you the finest barista skills, from our London HQ. Learn from the best in the industry. </p>
+      <p class="labelled-icon text-light text-step-2">
+        Upcoming courses
+        {% include "icons/arrow-down.svg" %}
+      </p>
+    </div>
+    <div class="flow">
+      <div class="grid" data-layout="thirds">
+        {% for item in courses %}
+          {{ design.patterns.renderPattern('card', item) | safe }}
+        {% endfor %}
+      </div>
+      <div class="flow-space-xl">
+        {{ design.patterns.renderPattern('button', {"href": "#", "label": "View all courses"}) | safe }}
+      </div>
+    </div>
+    <div class="grid" data-layout="50-50">
+      {% for item in quotes %}
+        {{ design.patterns.renderPattern('quote', item) | safe }}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+<div class="region region-space-2xl-4xl bg-primary text-dark indent indent-color-primary">
+  <div class="corner" data-corner-docked></div>
+  <div class="wrapper">
+  	<h2 class="text-step-10 md:text-step-11 xl:text-step-12">Coffee & community.</h2>
+    <div class="mt-2xl-4xl">
+      {{ design.patterns.renderPattern('gallery', {}) | safe }}
+    </div>
+  </div>
+</div>
+
+
+<div class="region region-space-2xl-4xl indent indent-color-dark-glare">
+  <div class="flow flow-space-3xl wrapper">
+    {{ design.patterns.renderPattern('headline', {}) | safe }}
+    {{ design.patterns.renderPattern('rolodex', {}) | safe }}
+    {{ design.patterns.renderPattern('button', {"href": "#", "label": "More articles"}) | safe }}
+  </div>
+</div>
+
+
+{{ design.patterns.renderPattern('closer', {}) | safe }}
+{{ design.patterns.renderPattern('site-foot', {}) | safe }}
+
+
+{% endblock %}

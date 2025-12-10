@@ -1,0 +1,95 @@
+{
+  "courses": [
+    {
+      "img": {
+        "src": "/images/card-1.jpg",
+        "alt": "An over-head shot of someone making a latte with frothed milk from a jug"
+      },
+      "heading": "Barista essentials",
+      "meta": "Sep 29. London, UK.",
+      "buttonLabel": "Find out more",
+      "href": "#",
+      "alertText": "Last few spots"
+    },
+    {
+      "img": {
+        "src": "/images/card-2.jpg",
+        "alt": "An over-head shot of someone making a latte with frothed milk from a jug"
+      },
+      "heading": "Barista essentials",
+      "meta": "Sep 29. London, UK.",
+      "buttonLabel": "Find out more",
+      "href": "#"
+    },
+    {
+      "img": {
+        "src": "/images/card-3.jpg",
+        "alt": "An over-head shot of someone making a latte with frothed milk from a jug"
+      },
+      "heading": "Barista essentials",
+      "meta": "Sep 29. London, UK.",
+      "buttonLabel": "Find out more",
+      "href": "#"
+    },
+    {
+      "img": {
+        "src": "/images/card-4.jpg",
+        "alt": "An over-head shot of someone making a latte with frothed milk from a jug"
+      },
+      "heading": "Barista essentials",
+      "meta": "Sep 29. London, UK.",
+      "buttonLabel": "Find out more",
+      "href": "#"
+    },
+    {
+      "img": {
+        "src": "/images/card-5.jpg",
+        "alt": "An over-head shot of someone making a latte with frothed milk from a jug"
+      },
+      "heading": "Barista essentials",
+      "meta": "Sep 29. London, UK.",
+      "buttonLabel": "Find out more",
+      "href": "#"
+    },
+    {
+      "img": {
+        "src": "/images/card-6.jpg",
+        "alt": "An over-head shot of someone making a latte with frothed milk from a jug"
+      },
+      "heading": "Barista essentials",
+      "meta": "Sep 29. London, UK.",
+      "buttonLabel": "Find out more",
+      "href": "#"
+    }
+  ],
+  "quotes": [
+    {
+      "content": "",
+      "quote": "The course was everything I was hoping for. The team really know their coffee!",
+      "cite": {
+        "text": "Sam T, London."
+      }
+    },
+    {
+      "content": "",
+      "quote": "The course was everything I was hoping for. The team really know their coffee!",
+      "cite": {
+        "text": "Sam T, London."
+      }
+    },
+    {
+      "content": "",
+      "quote": "The course was everything I was hoping for. The team really know their coffee!",
+      "cite": {
+        "text": "Sam T, London."
+      }
+    },
+    {
+      "content": "",
+      "quote": "The course was everything I was hoping for. The team really know their coffee!",
+      "cite": {
+        "text": "Sam T, London."
+      }
+    }
+  ]
+}

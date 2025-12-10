@@ -1,0 +1,19 @@
+<header class="site-head wrapper">
+  <div class="repel site-head__inner">
+    <div class="site-head__brand">
+      <a href="/">
+        {{ data.brandName }}
+      </a>
+    </div>
+    <nav aria-label="primary" class="nav">
+      <ul class="cluster" role="list">
+        {% for item in data.items %}
+          <li>
+            <a href="{{ item.href }}" {% if item.current %}aria-current="page"{% endif %}>{{ item.label }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+  <hr/>
+</header>
